@@ -57,7 +57,7 @@ img {
 
 .text-container h1 {
     font-weight:700;
-    font-size:3rem;
+    font-size:2.5rem;
     margin-bottom:2rem;
     color:var(--main-heading-text);
 }
@@ -100,12 +100,12 @@ img {
 /* MEDIA QUERIES */
 @media only screen and (max-width:375px) {
     html {
-        font-size:45%;
+        font-size:50%;
     }
     .preview-card {
-        width:90%;
+        width:80%;
         border-radius:1rem;
-        margin:2rem;
+        margin:3rem 0rem;
 
     }
     .image-container, 
@@ -114,7 +114,7 @@ img {
     }
    
     .text-container {
-        margin:2rem;
+        margin:2.5rem;
     }
     .text-container h1,
     .subheading {
