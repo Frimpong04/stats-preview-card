@@ -121,13 +121,16 @@ img {
         text-align:center;
     }
     
+    .subheading {
+        margin-bottom:2rem;
+    }
     .stats-container {
         flex-direction:column;
         justify-content:center;
         align-items:center;
     }
     .stats-item {
-        margin-bottom:2rem;
+        margin-bottom:1.5rem;
         text-align:center;
     }
 }
