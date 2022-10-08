@@ -47,6 +47,7 @@ img {
 }
 
 .text-container {
+    font-family: 'Inter', sans-serif;
     display:flex;
     flex-direction:column;
     padding:10rem;
@@ -55,6 +56,7 @@ img {
 }
 
 .text-container h1 {
+    font-weight:700;
     font-size:3rem;
     margin-bottom:2rem;
     color:var(--main-heading-text);
@@ -65,12 +67,14 @@ img {
 }
 
 .subheading {
-    text-align:justify;
-    font-size:1.8rem;
+    font-weight:400;
+    text-align:center;
+    font-size:1.5rem;
     margin-bottom:2.5rem;
     color:var(--main-paragraph);
 }
 .stats-container {
+    font-family: 'Lexend Deca', sans-serif;
     display:flex;
     align-items:center;
     flex-wrap:wrap;
@@ -83,6 +87,7 @@ img {
 
 
 .stats-item h2 {
+    font-weight:400;
     font-size:2rem;
     margin-bottom:0.5rem;
     color:var(--stats-heading);
